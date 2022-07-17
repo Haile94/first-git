@@ -1,0 +1,31 @@
+$headlines : rgb(230, 0, 0);
+$bacgcolor:rgba(23, 88, 185, 0.877);
+$headerfontfmly:Georgia, serif;
+$header-align:center;
+
+
+
+ body{
+   margin: 0;
+   background-color: $bacgcolor;
+    
+ }
+
+ header h1{
+    color:$headlines;
+     text-align:$header-align;
+     margin-top:40px;
+     text-transform: uppercase;
+     
+ }
+
+  main{
+
+     width: 100%;
+     height: 400px;
+     position: absolute;
+    
+      background-color: rgba(247, 141, 2, 0.753);
+      clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 74% 61%, 48% 100%, 28% 62%, 0 100%);
+      opacity: .2;
+  }
